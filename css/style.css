@@ -46,3 +46,27 @@ body{
     width: 135px;
     height: 135px;
 }
+
+/* Media Queries */
+@media screen and (min-width:700px){
+    .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .container h1{
+        margin: 0;
+    }
+    .list ul{
+        display: flex;
+    }
+    .list li{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .list a img{
+        width: 100px;
+        height: 100px;
+    }
+}
